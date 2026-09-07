@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE HTML>
+<html lang="tr">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta http-equiv="x-ua-compatible" content="ie=edge" /><link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" /><link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" /><link rel="manifest" href="/favicon/site.webmanifest" /><link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#767676" /><link rel="shortcut icon" href="/favicon/favicon.ico" /><meta name="msapplication-TileColor" content="#ffffff" /><meta name="msapplication-config" content="/favicon/browserconfig.xml" /><meta name="theme-color" content="#ffffff" /><meta name="robots" content="index, follow" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="/sablon/vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+    <!-- CSS Global Icons -->
+    <link rel="stylesheet" href="/sablon/vendor/icon-awesome/css/font-awesome.min.css" /><link rel="stylesheet" href="/sablon/vendor/icon-line-pro/style.css" /><link rel="stylesheet" href="/sablon/vendor/icon-hs/style.css" /><link rel="stylesheet" href="/sablon/vendor/animate.css" /><link rel="stylesheet" href="/sablon/vendor/hs-megamenu/src/hs.megamenu.css" /><link rel="stylesheet" href="/sablon/vendor/hamburgers/hamburgers.min.css" /><link rel="stylesheet" href="/sablon/vendor/fancybox/jquery.fancybox.min.css" />
+
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="/sablon/css/unify-core.css" /><link rel="stylesheet" href="/sablon/css/unify-components.css" /><link rel="stylesheet" href="/sablon/css/unify-globals.css" />
+
+    <!-- CSS Customization -->
+    
+
+    <style type="text/css">
+        #js-header {
+            border-bottom: 1px solid #dcdcdc;
+        }
+
+        .u-header__section {
+            /*background-color: #66676C;*/
+            background: url("/sablon/images/bg.jpg") top center;
+            background-size: cover;
+        }
+
+        .hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+            background: #fff !important;
+        }
+
+        @media (min-width: 768px) {
+            .yirmi {
+                max-width: 20%;
+            }
+        }
+
+        .yirmi article {
+            border: 1px solid #a10f2b;
+        }
+
+        .yirmi li.g-mb-20 {
+            border-bottom: 1px solid #b9b9b9;
+        }
+
+        .baslik {
+            height: 3em;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .g-bg-gray-light-v5 {
+            border-top: 1px solid #dcdcdc;
+            border-bottom: 1px solid #dcdcdc;
+        }
+
+        /*.u-header__section {
+            background-image: url('/sablon/images/header-bg.png');
+            background-position: center;
+        }*/
+
+        @media all and (min-width:575px) {
+
+            .logo {
+                height: 75px;
+            }
+
+            .bosluk {
+                display: block;
+                height: 132px;
+            }
+        }
+
+        @media all and (max-width:575px) {
+            /*.u-header__section {
+                background-image: none;
+            }*/
+
+            .logo {
+                height: 50px;
+            }
+
+            .bosluk {
+                display: block;
+                height: 105px
+            }
+        }
+
+        .top-header-new {
+            background-color: #f85104;
+            color: #fff;
+        }
+
+            .top-header-new a {
+                color: #fff;
+            }
+
+                .top-header-new a:hover {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+        .bg-birey-gri {
+            background-color: #66676C;
+        }
+
+        .wht {
+            color: #fff !important;
+        }
+
+            .active .wht, .wht:hover {
+                color: #FE5000 !important;
+            }
+    </style>
+
+    <meta name="description" content="&lt;% = tanimlar.site_description %>" /><meta name="image" property="og:image" content="&lt;% = tanimlar.site_adresi %>/sablon/images/no-image.jpg" /><meta property="og:title" content="Birey&#39;li Olmak İstiyorum" /><meta property="og:locale" content="tr_TR" /><meta property="og:type" content="article" /><meta property="og:description" content="&lt;% = tanimlar.site_description %>" /><meta property="og:url" content="&lt;% = tanimlar.sayfa_adresi %>" /><meta property="og:site_name" content="&lt;% = k_bolum_isim %>" /><link rel="canonical" href="&lt;% = tanimlar.sayfa_adresi %>" />
+
+    <style type="text/css">
+        input[type=text], input[type=email], textarea {
+            width: 100%;
+        }
+    </style>
+<title>
+	Sizi Arayalım
+</title></head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div>
+
+                    <div id="s_form">
+	
+                        <form method="post" action="?hareket=Gonder">
+                            <h2 class="h1 g-color-black g-font-weight-700 mb-4">Başarı size çok yakın!</h2>
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <select id="kaynak" name="kaynak" class="form-control g-color-black rounded-3 g-py-13 g-px-15" required>
+                                            <option value="">Bize Nasıl Ulaştınız?</option>
+                                            <option value="Google Reklamları">Google Reklamları</option>
+                                            <option value="Instagram Reklamları">Instagram Reklamları</option>
+                                            <option value="Referans">Referans</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <select id="sinif" name="sinif" class="form-control g-color-black rounded-3 g-py-13 g-px-15" required>
+                                            <option value="">Sınıf</option>
+                                            <option value="7">7. Sınıf</option>
+                                            <option value="8">8. Sınıf</option>
+                                            <option value="9">9. Sınıf</option>
+                                            <option value="10">10. Sınıf</option>
+                                            <option value="11">11. Sınıf</option>
+                                            <option value="12">12. Sınıf</option>
+                                            <option value="Mezun">Mezun</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--focus rounded-3 g-py-13 g-px-15" type="text" name="ad" id="ad" placeholder="Adınız Soyadınız" required="required" />
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--focus rounded-3 g-py-13 g-px-15" type="text" name="tel" id="tel" placeholder="Telefonunuz" required="required" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn u-btn-primary g-font-size-13 text-uppercase g-py-10 g-px-15">Birey'li Olmak İstiyorum!</button>
+                            </div>
+
+                        </form>
+                    
+</div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
+

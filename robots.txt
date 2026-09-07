@@ -1,0 +1,3 @@
+Sitemap: https://bireysultanbeyli.com/sitemap.xml 
+User-Agent: *
+Allow: /
